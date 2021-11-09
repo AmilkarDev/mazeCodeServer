@@ -1,0 +1,15 @@
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\bin\Debug\net5.0\Contracts.deps.json
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\bin\Debug\net5.0\Contracts.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\bin\Debug\net5.0\Contracts.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\bin\Debug\net5.0\Entities.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\bin\Debug\net5.0\Entities.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Contracts\obj\Debug\net5.0\Contracts.pdb

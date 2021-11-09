@@ -1,0 +1,17 @@
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\LoggerService.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Contracts.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Entities.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Contracts.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\bin\Debug\net5.0\Entities.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CopyComplete
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\LoggerService\obj\Debug\net5.0\LoggerService.pdb

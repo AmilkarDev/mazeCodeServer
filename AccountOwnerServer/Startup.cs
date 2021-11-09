@@ -1,15 +1,16 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
+using NLog;
+using AccountOwnerServer.Extensions;
+using Contracts;
+using Repository;
 
 namespace AccountOwnerServer
 {
@@ -17,6 +18,7 @@ namespace AccountOwnerServer
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 
@@ -25,6 +27,14 @@ namespace AccountOwnerServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigureCors();
+            services.ConfigureIISIntegration();
+
+            services.ConfigureLoggerService();
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+
+            services.ConfigureSqlServerContext(Configuration);
+            services.ConfigureRepositoryWrapper();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -43,8 +53,14 @@ namespace AccountOwnerServer
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AccountOwnerServer v1"));
             }
 
-            app.UseRouting();
+            app.UseStaticFiles();
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.All
+            });
 
+            app.UseRouting();
+            app.UseCors("CorsPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

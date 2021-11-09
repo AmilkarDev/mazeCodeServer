@@ -1,0 +1,17 @@
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Repository.deps.json
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Repository.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\ref\Repository.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Repository.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Contracts.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Entities.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Contracts.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\bin\Debug\net5.0\Entities.pdb
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\ref\Repository.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\Repository\obj\Debug\net5.0\Repository.pdb
