@@ -33,14 +33,16 @@ namespace AccountOwnerServer.Controllers
         }
 
         [HttpGet]
+        [Route("/Owners")]
         public IEnumerable<Owner> GetOwners()
         {
-            var owners = _repoWrapper.Owner.FindAll().ToList() ;
+            var owners = _repoWrapper.Owner.FindAll().ToList();
 
             return owners;
         }
 
         [HttpGet]
+        [Route("/DomesticAccounts")]
         public IEnumerable<Account> GetDomesticAccounts()
         {
             var domesticAccounts = _repoWrapper.Account.FindByCondition(x => x.AccountType.Equals("Domestic")).ToList();
@@ -48,22 +50,23 @@ namespace AccountOwnerServer.Controllers
             return domesticAccounts;
         }
 
-        //[HttpGet]
-        //public IEnumerable<WeatherForecast> Get()
-        //{
-        //    _logger.LogInfo("Here is info message from the controller.");
-        //    _logger.LogDebug("Here is debug message from the controller.");
-        //    _logger.LogWarn("Here is warn message from the controller.");
-        //    _logger.LogError("Here is error message from the controller.");
+        [HttpGet]
+        [Route("/GetWeatherForecast")]
+        public IEnumerable<WeatherForecast> Get()
+        {
+            _logger.LogInfo("Here is info message from the controller.");
+            _logger.LogDebug("Here is debug message from the controller.");
+            _logger.LogWarn("Here is warn message from the controller.");
+            _logger.LogError("Here is error message from the controller.");
 
-        //    var rng = new Random();
-        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        //    {
-        //        Date = DateTime.Now.AddDays(index),
-        //        TemperatureC = rng.Next(-20, 55),
-        //        Summary = Summaries[rng.Next(Summaries.Length)]
-        //    })
-        //    .ToArray();
-        //}
+            var rng = new Random();
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)]
+            })
+            .ToArray();
+        }
     }
 }

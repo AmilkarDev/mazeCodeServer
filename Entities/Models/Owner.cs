@@ -9,7 +9,8 @@ namespace Entities
     [Table("Owner")]
     public class Owner
     {
-        public Guid OwnerId { get; set; }
+        [Column("OwnerId")]
+        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Name is required")]
         [StringLength(60, ErrorMessage ="Name can't be longer than 60 characters")]
