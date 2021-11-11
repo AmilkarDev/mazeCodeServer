@@ -67,6 +67,6 @@ C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\obj\
 C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\obj\Debug\net5.0\ref\AccountOwnerServer.dll
 C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\obj\Debug\net5.0\AccountOwnerServer.pdb
 C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\obj\Debug\net5.0\AccountOwnerServer.genruntimeconfig.cache
-C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\obj\Debug\net5.0\AccountOwnerServer.csproj.CopyComplete
 C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\360_Corporate_1\source\repos\AccountOwnerServer\AccountOwnerServer\obj\Debug\net5.0\AccountOwnerServer.csproj.CopyComplete
